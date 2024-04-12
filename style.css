@@ -6,7 +6,6 @@ body {
 
 h1 {
     color:#AE5752;
-    font-family: 'Jurassic';
     font-size: 5em;
 
 }
@@ -15,7 +14,6 @@ h2 {
     text-align: center;
     color: white;
     font-size: 5em;
-    font-family: 'Jurassic', cursive, sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border: 2px solid white; 
     padding: 5px; 
