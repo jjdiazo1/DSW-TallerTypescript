@@ -1,0 +1,106 @@
+/* Principales */
+
+body {
+    background-color:
+     #00002B;}
+
+h1 {
+    color:#AE5752;
+    font-family: 'Jurassic';
+    font-size: 5em;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-family: 'Jurassic', cursive, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white; 
+    padding: 5px; 
+    margin: 10px 0; 
+}
+
+h1, h5 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+p{
+    color: white;
+}
+
+/* Barra de arriba */
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menu-bar {
+    background-color: #AE5752;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-item {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.search-bar {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Cartas */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #AE5752;
+  }
+
+.card-title {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #AE5752;
+    border-color: white;
+    accent-color: white;
+}
+
+.btn-primary:hover {
+    background-color:  #F3E469;
+    color: white; 
+    border-color: white;
+}
+
+/* Formulario */
+
+.mb-3 {
+    color: white;
+    margin: 0 auto;
+    justify-content: left;
+    align-items: left;
+}
