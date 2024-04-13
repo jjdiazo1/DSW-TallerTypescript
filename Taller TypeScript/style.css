@@ -1,0 +1,40 @@
+/* Principales */
+
+body {
+    background-color: white}
+
+h1 {
+    color: black;
+    font-size: 5em;
+
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white; 
+    padding: 5px; 
+    margin: 10px 0; 
+}
+
+#series-table-body tr:hover {
+    cursor: pointer;
+  }
+  
+#series-type-body {
+    color: rgb(22, 193, 176);
+}
+
+.btn-primary {
+    background-color: rgb(22, 193, 176);
+    border-color: white;
+    accent-color: white;
+}
+
+.btn-primary:hover {
+    background-color:  #F3E469;
+    color: white; 
+    border-color: white;
+}

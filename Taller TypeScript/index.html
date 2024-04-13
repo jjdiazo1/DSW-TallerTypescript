@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TV Series Manager</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>TV Series</h2>
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Channel</th>
+              <th scope="col">Seasons</th>
+            </tr>
+          </thead>
+          <tbody id="series-table-body">
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4" id="detailsContainer">
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./scripts/Serie.js"></script>
+  <script type="module" src="./scripts/data.js"></script>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
